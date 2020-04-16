@@ -165,6 +165,7 @@ install(TARGETS raspicam_node
 # Mark other files for installation (e.g. launch and bag files, etc.)
 install(DIRECTORY
   launch
+  params
   camera_info
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
